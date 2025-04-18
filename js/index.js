@@ -22,7 +22,7 @@ var alertNameCountry = document.querySelector("div.alert");
 
 function fetchWeather(city, callback) {
   var httpReq = new XMLHttpRequest();
-  var url = "  http://api.weatherapi.com/v1/forecast.json?key=d7112510dd514f27baf174540251804&q=" + city + "&days=3&aqi=yes";
+  var url = "  https://api.weatherapi.com/v1/forecast.json?key=d7112510dd514f27baf174540251804&q=" + city + "&days=3&aqi=yes";
 
   httpReq.open("GET", url, true);
 
